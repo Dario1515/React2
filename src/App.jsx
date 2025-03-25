@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <Navbar />
-    <ItemListContainer mensaje={"No se encontraron productos"} />
+    <ItemListContainer mensaje={"No se encontraron productoss"} />
     </>
   );
 }
