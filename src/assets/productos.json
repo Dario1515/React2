@@ -1,0 +1,131 @@
+[
+    {
+      "id": 1,
+      "title": "Amortiguador delantero Honda",
+      "description": "Amortiguador de alta calidad compatible con modelos Honda civic.",
+      "price": 23000,
+      "image": "/images/amortiguadores.jpg",
+      "category": "suspension"
+    },
+    {
+      "id": 2,
+      "title": "Discos de Freno Delanteros",
+      "description": "Juego de discos de freno ventilados para  Honda civic.",
+      "price": 18000,
+      "image": "/images/discosdefreno.jpg",
+      "category": "frenos"
+    },
+    {
+      "id": 3,
+      "title": "Kit de Partes del Motor",
+      "description": "Kit completo de piezas de motor para mantenimiento preventivo de honda civic.",
+      "price": 52000,
+      "image": "/images/partesdemotor.jpg",
+      "category": "motor"
+    },
+    {
+      "id": 4,
+      "title": "Neumático 135/40-17",
+      "description": "Neumático trasero con excelente agarre para uso urbano y carretera.",
+      "price": 28000,
+      "image": "/images/cubierta.jpg",
+      "category": "neumaticos"
+    },
+    {
+        "id": 5,
+        "title": "kit Neumáticos 235/50-17",
+        "description": "Neumático trasero con excelente agarre para uso urbano y carretera.",
+        "price": 78000,
+        "image": "/images/cubierta2.jpg",
+        "category": "neumaticos"
+      },
+      {
+        "id": 6,
+        "title": "Neumático 215/60-17",
+        "description": "Neumático delantero con excelente agarre para uso urbano y carretera.",
+        "price": 45000,
+        "image": "/images/cubierta3.jpg",
+        "category": "neumaticos"
+      },
+      {
+        "id": 7,
+        "title": "Neumático 195/40-18",
+        "description": "Neumático trasero con excelente agarre para uso urbano .",
+        "price": 38000,
+        "image": "/images/cubierta4.jpg",
+        "category": "neumaticos"
+      },
+      {
+        "id": 8,
+        "title": "cazoletas Honda crv originales",
+        "description": " Ideal para quienes buscan un rendimiento óptimo en su Honda.",
+        "price": 21000,
+        "image": "/images/suspension2.jpg",
+        "category": "suspension"
+      },
+      {
+        "id": 9,
+        "title": "Cazoleta aluminio premium civic ",
+        "description": " ideal para quienes buscan un rendimiento óptimo en su Honda.",
+        "price": 43000,
+        "image": "/images/suspension3.jpg",
+        "category": "suspension"
+      },
+      {
+        "id": 10,
+        "title": "Amortiguadores Trasero Honda ",
+        "description": "Amortiguador de alta calidad compatible con modelos Honda civic.",
+        "price": 73000,
+        "image": "/images/suspension4.jpg",
+        "category": "suspension"
+      },
+      {
+        "id": 11,
+        "title": "bombin de freno trasero",
+        "description": "bombin de freno trasero para campana a disco.",
+        "price": 10000,
+        "image": "/images/frenos2.jpg",
+        "category": "frenos"
+      },
+      {
+        "id": 12,
+        "title": "bomba de freno con abs",
+        "description": "bomba de freno con sistema de abs incluido.",
+        "price": 100000,
+        "image": "/images/frenos3.jpg",
+        "category": "frenos"
+      },
+      {
+        "id": 13,
+        "title": "kit 4 pastillas de freno originales",
+        "description": "Juego de pastillas de freno para  Honda civic.",
+        "price": 80000,
+        "image": "/images/frenos4.jpg",
+        "category": "frenos"
+      },
+      {
+        "id": 14,
+        "title": "Kit de embrague original",
+        "description": "Kit completo de embrague para honda Fit.",
+        "price": 57000,
+        "image": "/images/motor2.jpg",
+        "category": "motor"
+      },
+      {
+        "id": 15,
+        "title": "Kit de inyectores 450 cc",
+        "description": "Kit completo de 4 inyectores orignales.",
+        "price": 42000,
+        "image": "/images/motor3.jpg",
+        "category": "motor"
+      },
+      {
+        "id": 16,
+        "title": "Kit de 4 bujias 1 electrodo originales",
+        "description": "Kit completo de 4 bujias originales.",
+        "price": 66000,
+        "image": "/images/motor4.jpg",
+        "category": "motor"
+      }
+
+  ]
