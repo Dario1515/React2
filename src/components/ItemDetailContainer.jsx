@@ -1,10 +1,15 @@
 import productos from "../assets/Productos.json";
 import { useParams } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
+import ItemCount from "./ItemCount";
+import { Link } from "react-router-dom";
+import { CartContext } from "./CartContext";
 
 const ItemDetailContainer = () => {
   const [item, setItem] = useState(null);
   const { id } = useParams();
+  const [visible, setVisible] = useState(true);
+  const { addItem } = useContext(CartContext);
 
   useEffect(() => {
     const promesa = new Promise((resolve) => {
@@ -22,6 +27,11 @@ const ItemDetailContainer = () => {
   if (!item) {
     return <p className="text-center mt-5">Cargando producto...</p>;
   }
+  const onAdd = (quantity) => {
+    console.log(`Agregado ${quantity} producto(s) al carrito`);
+    addItem(item, quantity);
+    setVisible(false);
+  };
 
   return (
     <div className="container mt-5">
@@ -32,6 +42,8 @@ const ItemDetailContainer = () => {
           <h5 className="mt-2 fw-bold">{item.title}</h5>
           <p>{item.description}</p>
           <p className="fw-bold">${item.price}</p>
+      
+          {visible ?<ItemCount stock={item.stock} onAdd={onAdd} /> : <Link to="/cart" className="btn btn-warning">Ir al carrito</Link>}
         </div>
       </div>
     </div>
