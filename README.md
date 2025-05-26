@@ -1,12 +1,19 @@
-# React + Vite
+# CoderHouse
+## Proyecto Final React
+### Dario Joaquin Castro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto consiste en el desarrollo de una página web que simula un e-commerce especializado en la venta de repuestos para automóviles de la marca **Honda**.
 
-Currently, two official plugins are available:
+## Funcionalidades principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Navegación intuitiva** mediante un menú que permite explorar las distintas categorías de productos disponibles.
+- **Visualización de subproductos** dentro de cada categoría.
+- **Detalle de productos**, con descripción completa e imagen representativa.
+- **Carrito de compras**:
+  - Permite agregar productos especificando la cantidad deseada.
+  - Muestra un resumen con nombre del producto, precio unitario, cantidad y subtotal.
+  - Opción para eliminar un producto individual o vaciar el carrito por completo.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto fue desarrollado como entrega final del curso de React, poniendo en práctica conceptos como enrutamiento, componentes reutilizables, contexto global (Context API) y manejo de datos con Firebase.

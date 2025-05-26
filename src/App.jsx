@@ -7,7 +7,10 @@ import Productos from './components/Productos';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import CartContextProvider from './components/CartContext';
 import Cart from './components/Cart';
-import NotFound from './components/Error404'; // Asumiendo que creaste este componente
+import NotFound from './components/Error404'; 
+
+
+
 
 function App() {
   return (
@@ -20,7 +23,7 @@ function App() {
           <Route path="/category/:id" element={<ItemListContainer />} />
           <Route path="/item/:id" element={<ItemDetailContainer />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="*" element={<NotFound />} /> {/* Aquí usamos el componente NotFound */}
+          <Route path="*" element={<NotFound />} /> 
         </Routes>
         <Footer />
       </Router>
